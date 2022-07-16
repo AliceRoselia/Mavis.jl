@@ -1,5 +1,8 @@
 # Mavis.jl
 Founding the search framework!
+Note:
+This will not be implemented for a while. I often make the markdown early to gauge interest.
+For those not interested in fancy words, please ignore the next section.
 
 ### Introduction, hype, Why Mavis? #
 Mavis stands for "My arsenal (of, for) very interesting search (algorithms, utility, technique, etc)"!
