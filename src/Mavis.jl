@@ -9,6 +9,8 @@ module Mavis
     #A logic dealing with data transfer between nodes, normally between parents and children.
     #Propagating search results up the search tree is at this level.
     include("data_transfer.jl")
+    #The selector of each move in a state machine, each with a picker of its own.
+    include("move_picker.jl")
     #The main way in which the information of each node gets efficiently stored.
     include("transposition_table.jl")
     #Pruning logic, pruning nodes which don't matter.
